@@ -1,4 +1,4 @@
-package com.poowf.argon2;
+package com.dwynr.argon2;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
