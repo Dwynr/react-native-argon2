@@ -71,7 +71,10 @@ export default function argon2(
 	password: string,
 	salt: string,
 	options?: Partial<ArgonOptions>
-): Promise<string>
+): Promise<{
+	rawHash: string
+	encodedHash: string
+}>
 
 /**
  * Convenient constants for specifying input encodings.

@@ -1,6 +1,6 @@
 # Changelog
 
-### [2.0.2](https://github.com/Dwynr/react-native-argon2/compare/v2.0.0...v2.0.2) (2025-06-4)
+### [2.0.3](https://github.com/Dwynr/react-native-argon2/compare/v2.0.0...v2.0.3) (2025-06-4)
 
 -   Add TypeScript definitions
 -   Rework modules to support hex encoding for password and salt parameter (utf8 strings are bad at carrying entropy)

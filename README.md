@@ -35,18 +35,18 @@ const { rawHash, encodedHash } = result
 
 The package takes in the following variables:
 
-| Parameter          | Type    |
-| ------------------ | ------- |
-| password           | string  |
-| salt               | string  |
-| config             | object  |
-| config.iterations  | integer |
-| config.memory      | integer |
-| config.parallelism | integer |
-| config.hashLength  | integer |
-| config.mode        | string  |
-| config.version     | number  |
-| config.isHexEncded | boolean |
+| Parameter            | Type         |
+| -------------------- | ------------ |
+| password             | string       |
+| salt                 | string       |
+| config               | object       |
+| config.iterations    | integer      |
+| config.memory        | integer      |
+| config.parallelism   | integer      |
+| config.hashLength    | integer      |
+| config.mode          | string       |
+| config.version       | number       |
+| config.inputEncoding | "hex" "utf8" |
 
 You are not required to configure the third parameter which is the `config` object, however you do have to provide an empty object to it if you are not changing any of the values. You can set config values with the following example:
 
